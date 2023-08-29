@@ -4,7 +4,7 @@ import FooterItem from '../FooterItem/FooterItem'
 export default function Footer() {
     return (
         <>
-            <footer class="footer">
+            <footer class="footer mt-5">
                 <div class="container">
                     <div class="footer-widgets">
                         <div class="row">
