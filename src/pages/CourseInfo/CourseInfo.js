@@ -5,6 +5,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 import CourseDetailBox from '../../Components/CourseDetailBox/CourseDetailBox'
+import CommentsTextArea from '../../Components/CommentsTextArea/CommentsTextArea'
 export default function CourseInfo() {
   return (
     <>
@@ -238,6 +239,7 @@ export default function CourseInfo() {
                     اول از همه برنامه نویسی اندروید رو شروع کردم و نزدیک به 2 سال با زبان جاوا اندروید کار میکردم .بعد تصمیم گرفتم در زمینه وب فعالیت داشته باشم.و..
                   </p>
                 </div>
+                <CommentsTextArea></CommentsTextArea>
               </div>
             </div>
             <div class="col-4">
