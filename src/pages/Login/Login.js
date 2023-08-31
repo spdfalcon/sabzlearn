@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
+import Input from "../../Components/Form/Input";
 import Navbar from "../../Components/Navbar/Navbar";
 import Topbar from "../../Components/Topbar/Topbar";
 
@@ -26,19 +27,22 @@ export default function Login() {
           </div>
           <form action="#" class="login-form">
             <div class="login-form__username">
-              <input
-                class="login-form__username-input"
+              <Input
+                className="login-form__username-input"
                 type="text"
                 placeholder="نام کاربری یا آدرس ایمیل"
+                element="input"
               />
               <i class="login-form__username-icon fa fa-user"></i>
             </div>
             <div class="login-form__password">
-              <input
-                class="login-form__password-input"
-                type="text"
+              <Input
+                element="input"
+                type="password"
+                className="login-form__password-input"
                 placeholder="رمز عبور"
               />
+
               <i class="login-form__password-icon fa fa-lock-open"></i>
             </div>
             <button class="login-form__btn" type="submit">
