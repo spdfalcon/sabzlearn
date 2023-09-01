@@ -20,3 +20,5 @@ export const maxValidator = (max) => ({
 export const emailValidator = () => ({
   value: emailValue,
 });
+
+export default {requiredValue, minValue, maxValue, emailValue}
