@@ -44,6 +44,7 @@ export default function Register() {
     event.preventDefault();
 
     const newUserInfos = {
+      phone: formState.inputs.password.value,
       name: formState.inputs.name.value,
       username: formState.inputs.username.value,
       email: formState.inputs.email.value,
