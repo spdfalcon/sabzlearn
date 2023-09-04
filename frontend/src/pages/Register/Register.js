@@ -61,7 +61,7 @@ export default function Register() {
     })
       .then((res) => res.json())
       .then((result) => {
-        console.log(result);
+        console.log(result.accessToken);
       });
 
     console.log("User Register");
